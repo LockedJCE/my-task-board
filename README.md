@@ -1,29 +1,18 @@
 # my-task-board
 
-## User Story
+![Photo of Web Page](assets\mytaskboard.png)
+## Description
 
-AS A project team member with multiple tasks to organize
-I WANT a task board 
-SO THAT I can add individual project tasks, manage their state of progress and track overall project progress accordingly
+My motivation for this project was that I needed a place to store my assignments/tasks and be able to sort them efficiently. That motivation was the reason I built this project so i set out to create a website that I can list my tasks and their due dates and appropriately sort them into their urgency. It solves the problem of not being able to efficently sort your tasks and be able to move them around depending on their urgency and due date. I learned how to correctly implement dragging cards and dropping them around in a form format and I got a chance to implement all my javascript skills i've learned recently.
 
-## Acceptance Criteria
+## Usage
 
-GIVEN a task board to manage a project
-WHEN I open the task board
-THEN the list of project tasks is displayed in columns representing the task progress state (Not Yet Started, In Progress, Completed)
-WHEN I view the task board for the project
-THEN each task is color coded to indicate whether it is nearing the deadline (yellow) or is overdue (red)
-WHEN I click on the button to define a new task
-THEN I can enter the title, description and deadline date for the new task into a modal dialog
-WHEN I click the save button for that task
-THEN the properties for that task are saved in localStorage
-WHEN I drag a task to a different progress column
-THEN the task's progress state is updated accordingly and will stay in the new column after refreshing
-WHEN I click the delete button for a task
-THEN the task is removed from the task board and will not be added back after refreshing
-WHEN I refresh the page
-THEN the saved tasks persist
+To use this webpage I've created you just need to click the green add task button like seen in the first photo then fill out the "title", "description", and use the calendar to pick your "task due date". It will then be logged into the "todo" collumn and you can drag and drop the card into the other collumns to sort them.
+![Photo of Web Page](assets\ggggg.png)
 
+## Credits
+
+N/A Just Me!
 
 ## License
 
